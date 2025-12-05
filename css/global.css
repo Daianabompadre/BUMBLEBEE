@@ -470,7 +470,7 @@ footer {
 }
 
 
-/* --- TARJETAS PERSONAJES --- */
+
 
 .grilla-tarjetas {
   display: grid;
@@ -517,7 +517,7 @@ footer {
   letter-spacing: 1px;
 }
 
-/* Botón dentro de la tarjeta */
+
 .btn-tarjeta {
   display: inline-block;
   margin: 15px 0 20px;
@@ -537,7 +537,7 @@ footer {
 }
 
 
-/* ==== FORMULARIO ==== */
+
 .formulario {
     background: rgba(0, 0, 0, 0.5);
     border: 2px solid #ffcc00;
@@ -552,7 +552,7 @@ footer {
     box-shadow: 0 0 20px rgba(255, 204, 0, 0.2);
 }
 
-/* Inputs */
+
 .formulario input,
 .formulario textarea {
     padding: 12px;
@@ -571,7 +571,7 @@ footer {
     box-shadow: 0 0 10px #ffcc00;
 }
 
-/* Botón */
+
 .formulario button {
     background: #ffcc00;
     color: black;
@@ -589,7 +589,7 @@ footer {
     transform: translateY(-2px);
 }
 
-/* Responsive */
+
 @media (max-width: 480px) {
     .formulario {
         width: 90%;
@@ -597,7 +597,7 @@ footer {
     }
 }
 
-/* ====== ERROR 404 PAGE ====== */
+
 .error-container {
     max-width: 600px;
     margin: 70px auto;
@@ -652,7 +652,7 @@ footer {
     box-shadow: 0 0 25px rgba(255, 204, 0, 0.6);
 }
 
-/* Botón volver */
+
 .volver-btn {
     display: inline-block;
     margin-top: 20px;
@@ -673,13 +673,13 @@ footer {
     transform: translateY(-2px);
 }
 
-/* Animación */
+
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Responsive */
+
 @media (max-width: 480px) {
     .error-container {
         width: 90%;
