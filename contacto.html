@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Bumblebee</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="icon" type="image/png" href="./imagenes/Bumbleperfil.webp">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <header id="inicio">
+        <nav class="navbar">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./enlaces/personajes.html">Personajes</a></li>
+                <li><a href="./contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== FORMULARIO DE CONTACTO ===== -->
+    <section id="contacto" class="bloque">
+        <h2 class="titulo-bloque">CONTACTO</h2>
+
+       <form class="formulario" action="enviando.html" method="GET">
+
+    <label for="nombre">Nombre completo</label>
+    <input id="nombre" type="text" placeholder="Tu nombre..." required>
+
+    <label for="email">Correo electrónico</label>
+    <input id="email" type="email" placeholder="tuemail@gmail.com" required>
+
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" placeholder="Escribí tu mensaje..." required></textarea>
+
+    <button type="submit">Enviar</button>
+</form>
+    </section>
+
+</body>
+</html>
